@@ -2,32 +2,76 @@
   <head>
     <style>
       body {
-        
-        padding-top: 40px;
-        padding-bottom: 40px;
-      }
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #004643;
+      display: flex;
+      justify-content: center;
+    }
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none
+    }
+
+    .link {
+      background-color: #956aaa;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
       {
         background-color: #004643;
       }
 
-.name {
-  color: #fffffe;
-}
-
-.social-icons a {
-  color: #fffffe;
-  text-decoration: none;
-}
-
-.link {
-  background-color: #7210be;
-}
-
-.link a {
-  color: #001e1d;
-  text-decoration: none;
-}
-body {
+      body {
     background: linear-gradient(to bottom right, rgb(94, 206, 243), rgb(151, 151, 230));
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,9 +79,11 @@ body {
     background-attachment: fixed;
 }
 
+
+
+
   </style>
-  
-  <head>
+  </head>
     <body>
       <div>
         <div class="banner">
@@ -70,7 +116,7 @@ body {
         <div class="link">
           <img class="thumbnail"
               src="https://static01.nyt.com/images/2023/03/15/multimedia/NL-Chocolate-Guiness-Cake1-gblf/NL-Chocolate-Guiness-Cake1-gblf-master768.jpg?w=1280&q=75">
-          <a target="_blank" href="https://cooking.nytimes.com/recipes/1875-chocolate-guinness-cake">NYT Guiness Chocolate Cake Recipe — Nigella Lawson</a>
+          <a target="_blank" href="https://cooking.nytimes.com/recipes/1875-chocolate-guinness-cake">NYT Guiness Chocolate Cake Recipe</a>
           <style>
             .thumbnail {
                 width: 60px;
