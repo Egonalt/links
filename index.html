@@ -4,10 +4,14 @@
       body {
       padding-top: 40px;
       padding-bottom: 40px;
-      background-color: #004643;
+      background: linear-gradient(to bottom right, rgb(94, 206, 243), rgb(151, 151, 230));
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       display: flex;
       justify-content: center;
-    }
+   }
     .banner-image {
       width: 128px;
       height: 128px;
@@ -41,6 +45,9 @@
       display: flex;
       align-items: center;
       padding: 5px;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
     }
 
     .link a {
@@ -67,37 +74,16 @@
       display: flex;
       justify-content: space-around;
     }
-      {
-        background-color: #004643;
-      }
-
-      body {
-    background: linear-gradient(to bottom right, rgb(94, 206, 243), rgb(151, 151, 230));
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-
-
-
   </style>
   </head>
+  <items>
     <body>
+      
+
       <div>
         <div class="banner">
           <img src="https://media.licdn.com/dms/image/D4D03AQE5U18giA79kQ/profile-displayphoto-shrink_800_800/0/1683056062741?e=2147483647&v=beta&t=az68NbpYfjfiewKmxO9moEC1uk_yfvqBCCQ9mnapBZE" alt="Egon Altiok-Volko headshot" class= 'banner-image'>
-          <style>
-            .banner-image {
-              width: 128px;
-              height: 128px;
-              object-fit: cover;
-              border-radius: 128px;
-         
-            }
-  
-          </style>
+          
         </div>  
         <div class="name">
           Egon Altiok-Volko
@@ -117,14 +103,7 @@
           <img class="thumbnail"
               src="https://static01.nyt.com/images/2023/03/15/multimedia/NL-Chocolate-Guiness-Cake1-gblf/NL-Chocolate-Guiness-Cake1-gblf-master768.jpg?w=1280&q=75">
           <a target="_blank" href="https://cooking.nytimes.com/recipes/1875-chocolate-guinness-cake">NYT Guiness Chocolate Cake Recipe</a>
-          <style>
-            .thumbnail {
-                width: 60px;
-                height: 60px;
-                border-radius: 60px; 
-                object-fit: cover;
-            }
-        </style>
+
       </div>
       
         <div class="link">
@@ -133,14 +112,7 @@
       
           <a target="_blank"
             href="https://www.coolmathgames.com/">Coolmath.com</a>
-            <style>
-              .thumbnail {
-                  width: 60px;
-                  height: 60px;
-                  border-radius: 60px; 
-                  object-fit: cover;
-              }
-          </style>
+
         </div>
         
         <div class="link">
@@ -149,19 +121,13 @@
       
           <a target="_blank" href="https://sdzsafaripark.org/cams/tiger-cam">A
             Live Tiger Cam</a>
-            <style>
-              .thumbnail {
-                  width: 60px;
-                  height: 60px;
-                  border-radius: 60px;
-                  object-fit: cover;
-              }
-           </style>
+            
         </div>
 
       </div>
       
       
  
-     
+
     </body>
+  </items>
